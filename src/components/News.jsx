@@ -10,6 +10,9 @@ const News = ({a}) => {
                     <Typography variant='body1' color='error'>
                         {source.name}
                     </Typography>
+                    <Typography variant='h5' component='div'>
+                        {title}
+                    </Typography>
                 </CardContent>
             </Card>
         </Grid>
