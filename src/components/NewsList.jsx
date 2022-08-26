@@ -11,7 +11,7 @@ const NewsList = () => {
             <Typography textAlign='center' marginY={5} variant='h3' component='h2'>
                 Últimas Noticias
             </Typography>
-            <Grid container > 
+            <Grid container spacing={2} > 
                 {news.length && news.map( a => ( 
                     <News key={a.url} a={a}/>
                 ))}

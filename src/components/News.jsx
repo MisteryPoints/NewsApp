@@ -1,7 +1,7 @@
 import { Card, CardActions, CardContent, CardMedia, Link, Typography, Grid } from '@mui/material'
 
 const News = ({a}) => {
-    const { image, url, title, description, source } = a
+    const { image, url, title, description, source } = a 
     return (
         <Grid item md={6} lg={4}>
             <Card>
@@ -14,6 +14,12 @@ const News = ({a}) => {
                         {title}
                     </Typography>
                 </CardContent>
+                <CardActions >
+                    <Link href={url} target='_blank' variant='button' width={'100%'} underline='hover' textAlign='center'sx={{
+                        textDecoration: 'none' ,  
+                        borderRadius: '10px'
+                    }}>Leer Noticia</Link>
+                </CardActions>
             </Card>
         </Grid>
     )
