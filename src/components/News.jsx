@@ -1,17 +1,21 @@
 import { Card, CardActions, CardContent, CardMedia, Link, Typography, Grid } from '@mui/material'
 
 const News = ({a}) => {
-    const { image, url, title, description, source } = a 
+    const { image_url, url, title, description, source, published_at } = a 
+    const date = new Date(`${published_at}`)
     return (
-        <Grid item md={6} lg={4}>
-            <Card>
-                {image && (<CardMedia component='img' alt={`Imagen de la noticia ${title}`} image={image} height='250'/>)}
+        <Grid item md={6} lg={4} >
+            <Card >
+                {image_url && (<CardMedia component='img' alt={`Imagen de la noticia ${title}`} image={image_url} height='250'/>)}
                 <CardContent>
                     <Typography variant='body1' color='error'>
-                        {source.name}
+                        {source}
                     </Typography>
                     <Typography variant='h5' component='div'>
                         {title}
+                    </Typography>
+                    <Typography textAlign='right' variant='subtitle1' component='div'>
+                        {date.toLocaleDateString()}
                     </Typography>
                 </CardContent>
                 <CardActions >

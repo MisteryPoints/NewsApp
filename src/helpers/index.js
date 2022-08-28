@@ -1,18 +1,15 @@
 
 
 export const CATEGORIAS = [ 
-    { value: 'news', label: 'Noticias Recientes'},
-    { value: 'world', label: 'Noticias del Mundo'},
-    { value: 'finance', label: 'Finanzas'},
-    { value: 'economics', label: 'Economía'},
+    { value: 'general', label: 'Todas las Noticias'}, 
     { value: 'business', label: 'Negocios'},
     { value: 'tech', label: 'Tecnología'},
     { value: 'politics', label: 'Política'},
-    { value: 'beauty', label: 'Belleza'},
-    { value: 'energy', label: 'Energía'},
+    { value: 'health', label: 'Salud'},
+    { value: 'travel', label: 'Viajes'},
     { value: 'food', label: 'Comida'},
-    { value: 'sport', label: 'Deporte'},
-    { value: 'gaming', label: 'Video Juegos'},
+    { value: 'sports', label: 'Deportes'}, 
     { value: 'entertainment', label: 'Entretenimiento'},
     { value: 'science', label: 'Ciencia'},
 ]
+ 
