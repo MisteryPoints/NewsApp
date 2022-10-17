@@ -50,6 +50,9 @@ function App() {
             </Grid>
           </Grid>
           <NewsList/>
+          <footer>
+            <h2>Desarrollado por DevPoint Víctor Tejada</h2>
+          </footer>
         </Container>  
       </ThemeProvider>
     </NewsProvider>

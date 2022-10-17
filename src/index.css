@@ -29,8 +29,8 @@
 
   header{
   background: #5135f0;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #5135f0, #776868);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #5135f0, #776868); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #5135f0, black);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5135f0, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   padding: 1rem;
   border-bottom: .5rem solid #FFF; 
@@ -43,9 +43,29 @@
   margin: 0;
 }
 body{
-  background: linear-gradient(to bottom, #000, rgba(0,0,0,.1));
+  background: linear-gradient(to bottom, rgba(228, 221, 221, 0.76), rgba(0,0,0,.1));
   background-repeat: no-repeat;
 }
 .select{
   border-color: white !important;
+}
+
+footer{
+  background: #5135f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5135f0, black);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5135f0, black); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: block;  
+  position: fixed;
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  border-top: .35rem solid rgb(202, 202, 202); 
+}
+footer h2{
+  text-align: center;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  margin:0;
 }
