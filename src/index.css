@@ -45,6 +45,7 @@
 body{
   background: linear-gradient(to bottom, rgba(228, 221, 221, 0.76), rgba(0,0,0,.1));
   background-repeat: no-repeat;
+  padding-bottom: 1rem;
 }
 .select{
   border-color: white !important;
@@ -59,7 +60,7 @@ footer{
   left: 0; 
   right: 0;
   bottom: 0;
-  padding: 1rem;
+  padding: .5rem;
   border-top: .35rem solid rgb(202, 202, 202); 
 }
 footer h2{
